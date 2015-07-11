@@ -64,7 +64,6 @@ a:hover{text-decoration:underline;color:#f60;}
 /* header css*/
 #header{
   width: 100%;
-  overflow: hidden;
 }
 #header .c-top-navbar{
   width: 100%;
@@ -78,13 +77,59 @@ a:hover{text-decoration:underline;color:#f60;}
   width: 1200px;
   padding: 0;
 }
-#header .c-top-navbar .navbar-nav>li>a{
+
+#header .c-top-navbar .navbar-nav>li>a,
+#header .c-top-navbar .navbar-nav>li>a:focus {
   padding: 5px 15px;
   color: #999;
+  background-color: transparent;
+}
+#header .c-top-navbar .navbar-nav>li>a:hover{
+  /*color: #0c8f44;*/
+  color: #3DAE44;
+}
+#header .navbar-brand{
+  height: inherit;
 }
 #header .c-top-navbar .navbar-brand{
   padding: 5px 15px;
   font: 12px/20px SimSun;
-  height: 30px;
   color: #999;
+}
+#header .c-search-navbar{
+  margin-top:34px;
+}
+#header .c-bottom-navbar{
+  background-color:#2C3345;
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#header .c-bottom-navbar .navbar-nav>li>a,
+#header .c-bottom-navbar .navbar-nav>li>a:focus{
+  color: #fff;
+  padding: 0 24px;
+  font:18px/40px Microsoft YaHei;
+  background-color: transparent;
+}
+#header .c-bottom-navbar .navbar-nav>li>a:hover,
+#header .c-bottom-navbar .navbar-nav>li.open>a{
+  background-color: #3DAE44;
+}
+#header .c-bottom-navbar .dropdown-menu,
+#header .c-bottom-navbar .dropdown-menu>li{
+  min-width: inherit;
+}
+#header .c-bottom-navbar .dropdown-menu>li>a,
+#header .c-bottom-navbar .dropdown-menu > li > a:focus{
+  text-align: center;
+  font: 16px/36px Microsoft YaHei;
+  padding: 0 35px;
+  background-color:transparent;
+  color: #666;
+}
+#header .c-bottom-navbar .dropdown-menu > li > a:hover{
+  color: #3DAE44;
+  text-decoration: none;
+  background-color: transparent;
 }
