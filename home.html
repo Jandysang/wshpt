@@ -6,8 +6,223 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="keywords" content="微商会平台 关键词"/>
 	<meta name="description" content="描述" />
+	
+	<!-- 公共样式和脚本 start -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<script type="text/javascript" src="js/dropdown.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<!-- 公共样式和脚本 end -->
+
+	<script type="text/javascript" src="js/jquery.slideshow.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.slideshow.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/home.css" />
 </head>
 <body>
-	<div>ajsdal ajd ald aa jaldjal </div>
+	<!-- 公共页头 start-->
+	<div id="header">
+		<div class="c-top-navbar">
+			<div class="container">
+				<div class="navbar-header">
+			    	<span class="navbar-brand">
+			    		客服热线：400-086-0778
+			    	</span>
+			    	<span class="navbar-brand">
+			    	 	客服QQ：1537258348 
+			    	</span>
+			    	<span class="navbar-brand">
+			    	 	微商交流群（可加）：156475388
+			    	</span>
+			    </div>
+				<ul class="nav navbar-nav">
+			   		<li>
+			   			<a href="javascript:;">功能</a>
+			   		</li>
+			   		<li>
+			   			<a href="javascript:;" >价格</a>
+			   		</li>
+			   		<li>
+			   			<a href="javascript:;">文档</a>
+			   		</li>
+			   		<li>
+			   			<a href="javascript:;">下载</a>
+			   		</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				  <li class="dropdown c-top-userbar">
+				  	<span class="c-user-prefix">你好！</span>
+				    <a href="javascript:;" class="dropdown-toggle c-user-name" data-toggle="dropdown" data-hover="dropdown">
+				      	陆胜
+				    </a>
+				    <ul class="dropdown-menu">
+			            <li>
+			            	<a href="javascript:;">帐号设置</a>
+			            </li>
+			            <li>
+			            	<a href="javascript:;">邀请好友</a>
+			            </li>
+			            <li role="separator" class="divider"></li>
+			            <li>
+			            	<a href="javascript:;">登出</a>
+			            </li>
+			        </ul>
+				  </li>
+				  <li><a href="javascript:;">登录</a></li>
+				  <li><a href="javascript:;">注册</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">
+					<img src="http://www.weixinqun.cn/Uploads/2015/05/06/5549e7775e6f7.png" alt="微信群" width="380" height="70">
+				</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right c-search-navbar">
+				<li>
+					<form action="#" class="form-inline">
+						<div class="input-group">
+				          <input type="text" class="form-control" placeholder="输入搜索关键词">
+				          <span class="input-group-btn">
+				            <button class="btn btn-default" type="button">
+				            	<span class="glyphicon glyphicon-search"></span>
+				            </button>
+				          </span>
+				        </div>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<div class="c-bottom-navbar">
+			<div class="container">
+				<ul class="nav navbar-nav">
+		            <li class="active">
+		            	<a href="#">首页</a>
+		            </li>
+		            <li>
+		            	<a href="#">第二项</a>
+		            </li>
+		            <li class="dropdown">
+		            	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">这是四个 <span class="caret"></span></a>
+		            	<ul class="dropdown-menu">
+		            		<li><a href="#">第一子项</a></li>
+		            		<li><a href="#">第二子项</a></li>
+		            		<li><a href="#">第三子项</a></li>
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">第四子项</a></li>
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">第五子项</a></li>
+		            	</ul>
+		            </li>
+		            <li>
+		            	<a href="#">第四项</a>
+		            </li>
+		            <li>
+		            	<a href="#">第五项</a>
+		            </li>
+		            <li>
+		            	<a href="#">第六项</a>
+		            </li>
+		             <li class="dropdown">
+		            	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">这第七项 <span class="caret"></span></a>
+		            	<ul class="dropdown-menu">
+		            		<li><a href="#">第一子项</a></li>
+		            		<li><a href="#">第二子项</a></li>
+		            		<li><a href="#">第三子项</a></li>
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">第四子项</a></li>
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">第五子项</a></li>
+		            	</ul>
+		            </li>
+		            <li>
+		            	<a href="#">第八项</a>
+		            </li>
+		          </ul>
+			</div>
+		</div>
+	</div>
+	<!-- 公共页头 end-->
+
+	<!-- 当前页面内容 start -->
+	<div class="container">
+		<div class="row">
+			<div class="ui-slideshow-box">
+				<ul class="ui-slideshow">
+                    <li class="ui-slideshow-item">
+                        <a href="#" title="" target="_blank">
+                            <img src="http://images3.c-ctrip.com/dm/201506/hs830_410.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                        <a href="#" title="" target="_blank">
+                            <img src="http://images3.c-ctrip.com/dm/201506/czxw_830_410.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                        <a href="#" title="" target="_blank">
+                            <img src="http://pages.ctrip.com/ticket/temp_pic/lsdf_830_410.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                        <a href="#" title="" target="_blank">
+                            <img src="http://images3.c-ctrip.com/dm/201507/yccq_830_410.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                        <a href="#" title="" target="_blank">
+                            <img src="http://images3.c-ctrip.com/dm/201506/qsj_830_410.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                    	<a href="#" title="" target="_blank">
+                    		<img src="http://images3.c-ctrip.com/dm/201506/xxg_830_410.jpg" alt="">
+                    	</a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                    	<a href="#" title="" target="_blank">
+                    		<img src="http://images3.c-ctrip.com/dm/201507/app_home_ad096_830_410.jpg" alt="">
+                    	</a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                    	<a href="#" title="" target="_blank">
+                    		<img src="http://pages.ctrip.com/ticket/temp_pic/qngz_830_410.jpg" alt="">
+                    	</a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                    	<a href="#" title="" target="_blank">
+                    		<img src="http://images3.c-ctrip.com/dm/201506/app_home_ad292_830_410.jpg" alt="">
+                    	</a>
+                    </li>
+                    <li class="ui-slideshow-item">
+                    	<a href="#" title="" target="_blank">
+                    		<img src="http://images3.c-ctrip.com/dm/internal/app_home_ad211_830_410.jpg" alt="">
+                    	</a>
+                    </li>
+				</ul>
+			</div>
+			<div class="h-ad-content">
+               <a href="#" target="_blank">
+                   <img src="http://www.weixinqun.cn/Uploads/ad/2015/07/07/559b343579345.jpg" alt="">
+               </a>
+               <a href="#" target="_blank">
+                   <img src="http://www.weixinqun.cn/Uploads/ad/2015/07/09/559e0d8c7c2cb.jpg" alt="">
+               </a>
+               <a href="#" target="_blank">
+                   <img src="http://www.weixinqun.cn/Uploads/ad/2015/06/25/558b57376fedc.jpg" alt="">
+               </a>
+               <a href="#" target="_blank">
+                   <img src="http://www.weixinqun.cn/Uploads/ad/2015/07/07/559b343579345.jpg" alt="">
+               </a>
+        	</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/home.js"></script>
+	<!-- 当前页面内容 end -->
+
+
+
 </body>
 </html>

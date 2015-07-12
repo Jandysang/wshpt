@@ -1,0 +1,69 @@
+.ui-slideshow-box{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.ui-slideshow{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.ui-slideshow li,.ui-slideshow a,.ui-slideshow img{
+	float: left;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.ui-slideshow-nav{
+	overflow: hidden;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 2;
+}
+.ui-slideshow-nav li{
+	margin: 0 0 0 5px;
+}
+.ui-slideshow-nav li,.ui-slideshow-nav a{
+	float: left;
+	height: 20px;
+	width: 20px;
+}
+.ui-slideshow-nav a{
+	text-align: center;
+	line-height: 20px;
+	font-family: Arial;
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+}
+.ui-slideshow-nav a:hover{
+	color: #333;
+	text-decoration: none;
+}
+.ui-slideshow-nav li.selected a{
+	color: #fff;
+	background-color: #f60;
+}
+.ui-slideshow-prev,.ui-slideshow-next{
+	position: absolute;
+	z-index: 2;
+	text-indent: 100px;
+	height: 88px;
+	width: 36px;
+	overflow: hidden;
+	top: 50%;
+	margin-top: -44px;
+}
+.ui-slideshow-prev{
+	left: 10px;
+}
+
+.ui-slideshow-prev:hover{
+}
+.ui-slideshow-next{
+	right: 10px;
+}
+.ui-slideshow-next:hover{
+}

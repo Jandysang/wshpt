@@ -1,0 +1,41 @@
+.ui-slideshow-box{
+	position: relative;
+	float: left;
+	width: 830px;
+	height: 410px;
+	margin-right: 20px;
+}
+.ui-slideshow,.ui-slideshow-item,
+.ui-slideshow-item a,.ui-slideshow-item img{
+	float: left;
+	width: 830px;
+	height: 410px;
+}
+.ui-slideshow-nav li.selected a{
+	background-color: #3DAE44;
+}
+.h-ad-content{
+	float: left;
+	width: 320px;
+	height: 410px;
+	/*overflow: hidden;*/
+}
+.h-ad-content a{
+	float: left;
+	width: 320px;
+	height: 95px;
+	margin-bottom: 10px;
+}
+.h-ad-content img{
+	float: left;
+	width: 320px;
+	height: 95px;
+}
+.h-ad-content a:last-child{
+	margin-bottom: 0;
+}
+.h-ad-content a:hover{
+	box-shadow: 0 0 12px #999;
+	-moz-box-shadow:0 0 12px #999;
+	-webkit-box-shadow:0 0 12px #999;
+}

@@ -59,9 +59,17 @@ a:hover{text-decoration:underline;color:#f60;}
   width: 1200px;
   padding: 0 15px;
 }
+.dropdown-menu,
+.dropdown-menu>li{
+  min-width: inherit;
+}
+.row{
+  margin: 0;
+}
 
+/* common css*/
 
-/* header css*/
+/* header */
 #header{
   width: 100%;
 }
@@ -73,10 +81,7 @@ a:hover{text-decoration:underline;color:#f60;}
   font: 12px/20px SimSun;
   border-bottom: 1px solid #ddd;
 }
-#header .c-top-navbar .container{
-  width: 1200px;
-  padding: 0;
-}
+
 
 #header .c-top-navbar .navbar-nav>li>a,
 #header .c-top-navbar .navbar-nav>li>a:focus {
@@ -96,8 +101,47 @@ a:hover{text-decoration:underline;color:#f60;}
   font: 12px/20px SimSun;
   color: #999;
 }
+#header .c-top-userbar .c-user-prefix,
+#header .c-top-userbar .c-user-name{
+  display: inline-block;
+  color: #999;
+}
+#header .c-top-navbar .c-user-name{
+/*  color: #666 !important;*/
+  padding-left: 0 !important;
+}
+#header .c-top-navbar .navbar-nav>li>.dropdown-menu{
+  border-radius: 0; 
+}
+#header .c-top-navbar .dropdown-menu>li>a{
+  font: 12px/20px Microsoft YaHei;
+  padding: 0px 15px;
+  color: #666;
+  text-align: center;
+}
+#header .c-top-navbar .dropdown .dropdown-menu:before,
+#header .c-top-navbar .dropdown .dropdown-menu:after{
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  display: block;
+  content: " ";
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+#header .c-top-navbar .dropdown .dropdown-menu:before{
+  border-bottom-color:#ccc; 
+}
+#header .c-top-navbar .dropdown .dropdown-menu:after{
+  top: -7px;
+}
+
 #header .c-search-navbar{
   margin-top:34px;
+  margin-right: 0px;
 }
 #header .c-bottom-navbar{
   background-color:#2C3345;
@@ -116,10 +160,6 @@ a:hover{text-decoration:underline;color:#f60;}
 #header .c-bottom-navbar .navbar-nav>li.open>a{
   background-color: #3DAE44;
 }
-#header .c-bottom-navbar .dropdown-menu,
-#header .c-bottom-navbar .dropdown-menu>li{
-  min-width: inherit;
-}
 #header .c-bottom-navbar .dropdown-menu>li>a,
 #header .c-bottom-navbar .dropdown-menu > li > a:focus{
   text-align: center;
@@ -133,3 +173,8 @@ a:hover{text-decoration:underline;color:#f60;}
   text-decoration: none;
   background-color: transparent;
 }
+/*#header .c-top-navbar .container,
+#header .c-bottom-navbar .container{
+  width: 1200px;
+  padding: 0;
+}*/

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
 	<script type="text/javascript" src="js/dropdown.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -39,12 +40,23 @@
 			   		</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-				  <li class="dropdown">
-				    <a role="button" href="javascript:;" class="dropdown-toggle user-name disabled" data-toggle="dropdown" data-hover="dropdown">
-				      	
+				  <li class="dropdown c-top-userbar">
+				  	<span class="c-user-prefix">你好！</span>
+				    <a href="javascript:;" class="dropdown-toggle c-user-name" data-toggle="dropdown" data-hover="dropdown">
+				      	陆胜
 				    </a>
 				    <ul class="dropdown-menu">
-				    </ul>
+			            <li>
+			            	<a href="javascript:;">帐号设置</a>
+			            </li>
+			            <li>
+			            	<a href="javascript:;">邀请好友</a>
+			            </li>
+			            <li role="separator" class="divider"></li>
+			            <li>
+			            	<a href="javascript:;">登出</a>
+			            </li>
+			        </ul>
 				  </li>
 				  <li><a href="javascript:;">登录</a></li>
 				  <li><a href="javascript:;">注册</a></li>
