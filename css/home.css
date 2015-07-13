@@ -1,3 +1,9 @@
+#content{
+	margin-bottom: 300px;
+}
+.h-row{
+	margin-bottom: 10px;
+}
 .ui-slideshow-box{
 	position: relative;
 	float: left;
@@ -38,4 +44,10 @@
 	box-shadow: 0 0 12px #999;
 	-moz-box-shadow:0 0 12px #999;
 	-webkit-box-shadow:0 0 12px #999;
+}
+
+.h-list{
+	padding: 10px;
+	border: 1px solid #ddd;
+	overflow: hidden;
 }
