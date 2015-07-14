@@ -72,6 +72,25 @@ a:hover{text-decoration:underline;color:#f60;}
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(61, 174, 68, .6);
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(61, 174, 68, .6);
 }
+.popover{
+  padding: 3px;
+  border-color: #3DAE44;
+}
+.popover-title{
+  display: none;
+}
+.popover.right>.arrow{
+  border-right-color:#3DAE44;
+}
+.popover.left>.arrow{
+  border-left-color:#3DAE44;
+}
+.popover.top>.arrow{
+  border-top-color:#3DAE44;
+}
+.popover.bottom>.arrow{
+  border-bottom-color:#3DAE44;
+}
 /* common css*/
 
 /* header */
@@ -148,6 +167,42 @@ a:hover{text-decoration:underline;color:#f60;}
   margin-top:34px;
   margin-right: 0px;
 }
+#header .c-search-navbar .input-group{
+  width: 200px;
+}
+#header .c-search-navbar .input-group>.form-control{
+  animation: inputBlur 1s;
+  -moz-animation: inputBlur 1s; /* Firefox */
+  -webkit-animation: inputBlur 1s;  /* Safari 和 Chrome */
+  -o-animation: inputBlur 1s; /* Opera */
+  position: absolute;
+  width: 100%;
+  right:0px;
+  border-radius: 3px;
+}
+#header .c-search-navbar .input-group>.form-control:focus{
+  animation: inputFocus 1s;
+  -moz-animation: inputFocus 1s; /* Firefox */
+  -webkit-animation: inputFocus 1s;  /* Safari 和 Chrome */
+  -o-animation: inputFocus 1s; /* Opera */
+  width: 200%;
+}
+#header .c-search-navbar .input-group>.input-group-btn{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+
+}
+#header .c-search-navbar .input-group>.input-group-btn button.btn,
+#header .c-search-navbar .input-group>.input-group-btn button.btn:focus{
+  border: none;
+  background-color: transparent;
+  color: #999;
+}
+#header .c-search-navbar .input-group>.input-group-btn button.btn:hover{
+  background-color: transparent;
+  color: #343434;
+}
 #header .c-bottom-navbar{
   background-color:#2C3345;
   height: 40px;
@@ -183,3 +238,48 @@ a:hover{text-decoration:underline;color:#f60;}
   width: 1200px;
   padding: 0;
 }*/
+
+
+@keyframes inputFocus
+{
+  from {width: 100%;}
+  to {width: 200%;}
+}
+@keyframes inputBlur
+{
+  from {width: 200%;}
+  to {width: 100%;}
+}
+
+@-moz-keyframes inputFocus /* Firefox */
+{
+ from {width: 200px;}
+  to {width: 400px;}
+}
+@-moz-keyframes inputBlur
+{
+  from {width: 200%;}
+  to {width: 100%;}
+}
+
+@-webkit-keyframes inputFocus /* Safari 和 Chrome */
+{
+ from {width: 200px;}
+  to {width: 400px;}
+}
+@-webkit-keyframes inputBlur
+{
+  from {width: 200%;}
+  to {width: 100%;}
+}
+
+@-o-keyframes inputFocus /* Opera */
+{
+ from {width: 200px;}
+  to {width: 400px;}
+}
+@-o-keyframes inputBlur
+{
+  from {width: 200%;}
+  to {width: 100%;}
+}
