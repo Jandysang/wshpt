@@ -237,6 +237,9 @@ body{
   text-decoration: none;
   background-color: transparent;
 }
+#header .c-bottom-divider{
+  border-top: 1px solid #ddd;
+}
 /*#header .c-top-navbar .container,
 #header .c-bottom-navbar .container{
   width: 1200px;
