@@ -46,7 +46,9 @@
 .h-list{
 	padding: 10px;
 	border: 1px solid #ddd;
+	margin-bottom: 15px;
 	float: left;
+	background-color: #fff;
 }
 .h-list-nav{
 	margin-left: -11px;
@@ -109,9 +111,9 @@
 	vertical-align: middle;
 }
 .h-list-pro a.thumbnail .glyphicon{
-	font-size: 18px;
-	float: left;
-	margin-top: -2px;
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
 	color: #3DAE44;
 }
 .h-list-pro .h-pro-pop{
@@ -124,7 +126,44 @@
 .h-row-ad a.thumbnail:hover,
 .h-row-ad a.thumbnail:focus,
 .h-row-ad a.thumbnail.active {
-	box-shadow: 3px 3px 3px #3DAE44;
-	-moz-box-shadow:3px 3px 3px #3DAE44;
-	-webkit-box-shadow:3px 3px 3px #3DAE44;
+	box-shadow: 0px 0px 12px #3DAE44;
+	-moz-box-shadow:0px 0px 12px #3DAE44;
+	-webkit-box-shadow:0px 0px 12px #3DAE44;
+}
+.h-news{
+
+	float: left;
+}
+.h-news .h-list-nav{
+	margin-left: -1px;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.h-news .h-news-box{
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.h-news .h-news-left{
+	padding-right: 15px;
+
+}
+.list-group{
+	margin-bottom: 10px;
+}
+.list-group-item{
+	border-color: transparent;
+	font-size: 14px;
+}
+a.list-group-item,
+button.list-group-item {
+  color: #333;
+}
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus {
+  color: #3DAE44;
+  text-decoration: none;
+  background-color: transparent;
 }
