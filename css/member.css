@@ -1,0 +1,19 @@
+.member-box{
+	border-right: 1px solid #ddd;
+}
+.member-title{
+	padding:15px 0; 
+}
+.member-other-opr{
+	margin-top: 80px;
+}
+.member-other-opr h3{
+	margin-bottom: 15px;
+}
+.member-other-opr .row{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.member-box .control-label{
+	font-size: 14px;
+}
