@@ -1,3 +1,4 @@
+/** 登录注册页面 **/
 .member-box{
 	border-right: 1px solid #ddd;
 }
@@ -16,4 +17,98 @@
 }
 .member-box .control-label{
 	font-size: 14px;
+}
+.member-box .help-block{
+	margin-bottom: 0;
+}
+
+/***管理页面***/
+.r-m-list{
+	padding-right: 20px;
+}
+.r-m-list .list-group{
+	border: 1px solid #ddd;
+}
+.r-m-list .list-group-item{
+	border-radius: 0;
+	margin: 0;
+	text-align: center;
+	border:none; 
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+}
+.r-m-list span.list-group-item{
+	background-color: #2C3345;
+	color: #fff;
+}
+.r-m-list a.list-group-item:hover{
+	background-color: #fff;
+	color:  #3DAE44;
+}
+.r-m-list a.list-group-item.active,
+.r-m-list a.list-group-item.active:hover{
+	background-color: #3DAE44;
+	color: #fff;
+}
+.r-m-box{
+	background-color: #fff;
+}
+.r-m-content{
+	padding: 15px;
+}
+
+.r-m-nav{
+	border-left: 3px solid #3DAE44;
+	margin-bottom: 10px;
+}
+.r-m-nav .navbar-brand{
+	padding: 0px;
+	height: inherit;
+	font-family: Microsoft YaHei;
+	padding: 8px 20px; 
+}
+.r-m-nav .navbar-nav>li{
+	padding: 9px 25px 5px 0;
+}
+.r-m-nav .navbar-nav>li>a{
+	padding: 0;
+  	color: #999;
+  	background-color: transparent;
+  	font-size: 14px;
+}
+.r-m-nav .navbar-nav>li>a:hover{
+	color: #3DAE44;
+}
+.r-m-nav .btn-primary{
+	font-size: 12px;
+	padding: 2px 15px;
+	line-height: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	background-color: #3DAE44;
+	border-color: #3DAE44;
+}
+.r-m-nav .btn-primary:hover{
+	background-color: #399907;
+	border-color: #399907;
+}
+.r-m-nav .navbar-right>li{
+	padding: 5px 20px;
+}
+
+.r-m-nav .dropdown > a:focus{
+	color: #999;
+	background-color: transparent;
+}
+.r-m-ad a.thumbnail{
+	border: none;
+	padding: 0px;
+	margin-bottom: 0;
+}
+.r-m-ad a.thumbnail:hover,
+.r-m-ad a.thumbnail:focus,
+.r-m-ad a.thumbnail.active {
+	box-shadow: 0px 0px 12px #3DAE44;
+	-moz-box-shadow:0px 0px 12px #3DAE44;
+	-webkit-box-shadow:0px 0px 12px #3DAE44;
 }
