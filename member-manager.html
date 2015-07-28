@@ -137,6 +137,7 @@
 		</div>
 	</div>
 	<!-- 公共页头 end-->
+
 	
 	<div class="container">
 		<div class="row">
@@ -161,6 +162,8 @@
 				</div>
 			</div>
 			<div class="col-xs-9">
+				<!-- 这里的注释的地方，是每个具体会员管理页面的样式，其他地方会员管理页面的公共部分 -->
+				<!-- 修改资料  start-->
 				<div class="row r-m-box">
 						<div class="col-xs-12 r-m-content r-m-ad">
 							<a href="#" class="thumbnail">
@@ -182,16 +185,166 @@
 						    </ul> -->
 					    </div>
 					    <div class="row">
-					    	<div class="col-xs-12">
-					    		
+					    	<div class="col-xs-3">
+								<a href="#" class="thumbnail pull-right" title="">
+					        		<img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTRlODdlMmM2NWYgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNGU4N2UyYzY1ZiI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+					        	</a>	
+					    	</div>
+					    	<div class="col-xs-offset-1 col-xs-6">
+					    		<form class="form-horizontal">
+								    <div class="form-group">
+			                          <label for="uploadImg" class="col-xs-3 control-label">上传头像：</label>
+			                          <div class="col-xs-7">
+			                              <input type="file" class="form-control" name="uploadImg" id="uploadImg" />
+			                          </div>
+			                          <div class="col-xs-2">
+			                            <span class="alert alert-danger none"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+			                          </div>
+								    </div>
+								    <div class="form-group">
+								      <label for="petname" class="col-xs-3 control-label">昵称：</label>
+								      <div class="col-xs-7">
+								        <input type="text" class="form-control" name="petname" id="petname" placeholder="请输入新昵称" />
+								      </div>
+								      <div class="col-xs-2">
+								      	<span class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								      </div>
+								    </div>
+								    <div class="form-group">
+								      <label for="email" class="col-xs-3 control-label">邮箱：</label>
+								      <div class="col-xs-7">
+								        <input type="text" class="form-control" name="email" id="email" placeholder="请输入新邮箱" />
+								      </div>
+								      <div class="col-xs-2">
+								      	<span class="alert alert-danger none"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								      </div>
+								    </div>
+								    <div class="form-group">
+								      <label for="phone" class="col-xs-3 control-label">手机号码：</label>
+								      <div class="col-xs-7">
+								        <input type="text" class="form-control" name="phone" id="phone" placeholder="请输入新手机号码" />
+								      </div>
+								      <div class="col-xs-2">
+								      	<span class="alert alert-danger none"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								      </div>
+								    </div>
+								    <div class="form-group">
+								      <div class="col-xs-offset-3 col-xs-7">
+								        <button type="button" class="btn btn-danger btn-xs">删除头像</button>
+								      </div>
+								    </div>
+								    <div class="form-group">
+								      <div class="col-xs-offset-3 col-xs-7">
+								        <button type="submit" class="btn btn-success">登&nbsp;录</button>
+								      </div>
+								    </div>
+							    </form>
 					    	</div>
 					    </div>
 					</div>
 				</div>
+				<!-- 修改资料  end-->
+
+				<!-- 修改密码  start-->
+				<div class="row r-m-box">
+						<div class="col-xs-12 r-m-content r-m-ad">
+							<a href="#" class="thumbnail">
+					        	<img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTRlODdlMmM2NWYgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNGU4N2UyYzY1ZiI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+					        </a>
+						</div>
+					<div class="col-xs-12 r-m-content">
+						<div class="r-m-nav clearfix">
+							<div class="navbar-header">
+								<span class="navbar-brand">修改密码</span>
+							</div>
+						    <!-- <ul class="nav navbar-nav navbar-right">
+						        <li>
+						        	<a href="javascript:;">
+						        		更多&gt;&gt;
+						        	</a>
+						        </li>
+						    </ul> -->
+					    </div>
+					    <div class="row">
+					    	<div class="col-xs-offset-1 col-xs-6">
+					    		<form class="form-horizontal">
+					    			<div class="form-group">
+								        <label for="oldpassword" class="col-xs-3 control-label">旧密码：</label>
+								        <div class="col-xs-7">
+								          <input type="password" class="form-control" name="oldpassword" id="oldpassword" placeholder="请输入密码">
+								          <span class="help-block text-red"> * 如果红色觉得不错，可以用红色</span>
+								        </div>
+								        <div class="col-xs-2">
+								        	<span class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								        </div>
+								      </div>
+								     <div class="form-group">
+								        <label for="password" class="col-xs-3 control-label">密码：</label>
+								        <div class="col-xs-7">
+								          <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+								          <span class="help-block text-red"> * 如果红色觉得不错，可以用红色</span>
+								        </div>
+								        <div class="col-xs-2">
+								        	<span class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								        </div>
+								      </div>
+								    <div class="form-group">
+								      <label for="passwordAgain" class="col-xs-3 control-label">确认密码：</label>
+								      <div class="col-xs-7">
+								        <input type="password" class="form-control" name="passwordAgain" id="passwordAgain" placeholder="请输入确认密码">
+								        <span class="help-block text-muted"> * 这里是提醒</span>
+								      </div>
+								      <div class="col-xs-2">
+								        	<span class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span>这里是报错信息</span>
+								        </div>
+								    </div>
+								    <div class="form-group">
+								      <div class="col-xs-offset-3 col-xs-7">
+								        <button type="submit" class="btn btn-success">登&nbsp;录</button>
+								      </div>
+								    </div>
+							    </form>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+				<!-- 修改密码  end-->
+
+				<!-- 积分兑换  start-->
+				<div class="row r-m-box">
+						<div class="col-xs-12 r-m-content r-m-ad">
+							<a href="#" class="thumbnail">
+					        	<img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTRlODdlMmM2NWYgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNGU4N2UyYzY1ZiI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+					        </a>
+						</div>
+					<div class="col-xs-12 r-m-content">
+						<div class="r-m-nav clearfix">
+							<div class="navbar-header">
+								<span class="navbar-brand">积分兑换</span>
+							</div>
+						    <!-- <ul class="nav navbar-nav navbar-right">
+						        <li>
+						        	<a href="javascript:;">
+						        		更多&gt;&gt;
+						        	</a>
+						        </li>
+						    </ul> -->
+					    </div>
+					    <div class="row">
+					    	<div class="col-xs-12">
+					    		<div class="alert alert-success reset" role="alert">积分说明： 用户每上传一个微信群或邀请一个好友成功注册网站，即可获得 <code>6</code> 点积分。积分后期可用于兑换VIP或对换广告位等，积分越高对个人账号越有利。 </div>
+					    		<hr>
+					    		赶紧 <a href="http://www.haoduoqun.com/add.html"><kbd>上传微信群</kbd></a> 来赢得更多积分吧！
+					    	</div>
+					    </div>
+					</div>
+				</div>
+				<!-- 修改密码  end-->
 			</div>
 		</div>
 	</div>
-		
+	
+	
 	<!-- 公共页尾 start -->
 	<div id="footer">
 		<div class="container">
